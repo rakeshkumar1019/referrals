@@ -2,7 +2,7 @@ import { useState,useEffect } from "react"
 import HeroSearchSection from "../components/HeroSearchSection"
 import SearchBarWithDropdown from "../components/SearchBarWithDropdown"
 import Table from "../components/Table"
-import { UserState } from "../context/context"
+import { UserState } from "../context/Context"
 const JobBoard = () => {
   const {jobsState} = UserState();
   const [jobs,setJobs] = useState([])

@@ -1,5 +1,5 @@
 import CompaniesGrid from "../components/CompaniesGrid"
-import { UserState } from "../context/context"
+import { UserState } from "../context/Context"
 const Companies = () => {
   const { jobsState } = UserState();
 
