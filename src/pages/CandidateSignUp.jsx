@@ -2,7 +2,7 @@ import { useState } from "react";
 import {Link} from "react-router-dom"
 import { ArrowRight } from "lucide-react";
 import AlertBanner from "../components/AlertBanner";
-import { UserState } from "../context/context";
+import { UserState } from "../context/Context";
 
 const CandidateSignUp = () => {
   const {userState,userDispatch} = UserState()
