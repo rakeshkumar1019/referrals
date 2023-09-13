@@ -102,7 +102,7 @@ const Navbar = () => {
                         />
                       </svg>
                     </span>
-                    <span className="font-bold">Reffer</span>
+                    <span className="font-bold">Referrals</span>
                   </div>
                   <div className="-mr-2">
                     <button
@@ -126,7 +126,6 @@ const Navbar = () => {
                           <Link to={item.href}>{item.name}</Link>
                         </span>
                         <span>
-                          <ChevronRight className="ml-3 h-4 w-4" />
                         </span>
                       </span>
                     ))}
@@ -140,10 +139,10 @@ const Navbar = () => {
                   />
                   <span className="flex flex-col">
                     <span className="text-sm font-medium text-gray-900">
-                      Dan Abromov
+                      Rakesh Kumar Singh
                     </span>
                     <span className="text-sm font-medium text-gray-500">
-                      @dan_abromov
+                      @rakesh_1019
                     </span>
                   </span>
                 </div>
